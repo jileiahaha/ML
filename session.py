@@ -1,12 +1,8 @@
-# View more python learning tutorial on my Youtube and Youku channel!!!
+
 # Session 是 Tensorflow 为了控制,和输出文件的执行的语句.
 # 运行 session.run() 可以获得你要得知的运算结果, 或者是你所要运算的部分.
-# Youtube video tutorial: https://www.youtube.com/channel/UCdyjiB5H8Pu7aDTNVXTTpcg
-# Youku video tutorial: http://i.youku.com/pythontutorial
+# 在tensorflow中，只有session.run()才会执行我们定义的运算
 
-"""
-Please note, this code is only for python 3+. If you are using python 2+, please modify the code accordingly.
-"""
 from __future__ import print_function
 import tensorflow as tf
 
